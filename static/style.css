@@ -7,4 +7,24 @@ h1 {
     color: #377ba8;
 }
 
+p {
+  color: #377ba8;
+  font-family: sans-serif;
+  font-size: 20px
+}
 
+#img_left {
+	float: left;
+    width:220px;
+    margin: 5px;
+}
+#map_middle {
+    float: middle;
+    margin: 5px 0;
+    width: calc(100% - 460px);
+}
+#reviews_right {
+    float:right;
+    margin: 5px;
+    width: 220px;
+}

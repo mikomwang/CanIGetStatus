@@ -1,23 +1,83 @@
 <!doctype html>
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
-<title>Hello from Flask</title>
+<title>STATUS SEEKER </title>
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
 
-<h1> What can I buy to get UNIVERSAL STATUS? </h1>
+
+<h1 align='center'> What can I buy to get UNIVERSAL STATUS </h1>
 {% if name %}
-  <h1>Go to {{ name }} and buy {{ amount }} {{ item }}!</h1>
+  <h1 align='center'>Go to {{ name }} and buy {{ amount }} {{ item }}!</h1>
 {% else %}
-  <h1>uh something went wrong 404 wee woo</h1>
+  <h1> uh something went wrong 404 wee woo </h1>
 {% endif %}
 
-
-{% if pic %}
-	<img src=pic style="width:128px;height:128px;">
-{% endif %}
+<h2 align = 'center'><i>{{ desc }} </i></h2>
 
 
- <iframe src="//www.google.com/maps/embed/v1/directions?origin=Tate+Modern
-      &destination=Tower+of+London
+<img src= {{ url_for('static', filename='picture.jpg') }} style="width:800px; height:500px">
+
+
+
+<iframe src="https://www.google.com/maps/embed/v1/directions?origin={{ origin }}
+      &destination={{ dest }}
       &key=AIzaSyBSKU_hMWjELxxFa-Dpw0q0YteDXtjcRnw"
-      width="400" height="300" frameborder="0" style="border:0" allowfullscreen>
+      width="610" height="500" frameborder="0" style="border:0" allowfullscreen>
 </iframe>
+
+{% for review in reviews %}
+	<p> {{ review['text'] }} </p>
+{% endfor %}
+
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+<img src= {{ url_for('static', filename='steve.png') }} style="width:50px; height:50px">
+
