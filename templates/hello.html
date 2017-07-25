@@ -2,9 +2,22 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
 <title>Hello from Flask</title>
-<h1> What can I buy to get UNIVERSAL STATUS </h1>
+
+<h1> What can I buy to get UNIVERSAL STATUS? </h1>
 {% if name %}
-  <h1>Hello {{ name }}!</h1>
+  <h1>Go to {{ name }} and buy {{ amount }} {{ item }}!</h1>
 {% else %}
-  <h1>Hello, World!</h1>
+  <h1>uh something went wrong 404 wee woo</h1>
 {% endif %}
+
+
+{% if pic %}
+	<img src=pic style="width:128px;height:128px;">
+{% endif %}
+
+
+ <iframe src="//www.google.com/maps/embed/v1/directions?origin=Tate+Modern
+      &destination=Tower+of+London
+      &key=AIzaSyBSKU_hMWjELxxFa-Dpw0q0YteDXtjcRnw"
+      width="400" height="300" frameborder="0" style="border:0" allowfullscreen>
+</iframe>
